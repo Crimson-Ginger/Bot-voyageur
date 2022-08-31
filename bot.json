@@ -1,0 +1,32 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey", "Bonjour", "bonjour","Bonsoir", "bonsoir"],
+      "bot_response": ["Hey there!","hey", "Bonjour", "Bonsoir"],
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye", "ciao", "a bientot"],
+      "bot_response": ["See you later!", "Bonne journée", "Bonne soirée"], 
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["Ravie", "de", "te", "connaitre"],
+      "bot_response": "Tout le plaisir est pour moi !",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["Je", "voudrais", "partir", "aux", "USA"],
+      "bot_response": "Voici un lien pour t'aider a trouver tous les bons plans: https://www.radins.com/voyages/sejours/voyage-etats-unis-pas-cher/17127",
+      "required_words": ["partir", "USA"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["Meilleurs", "hotel", "a", "Dubai"],
+      "bot_response": "Vous pouvez trouver ce magnifique hotel 5 etoiles : https://www.visitdubai.com/fr/places-to-visit/burj-khalifa",
+      "required_words": ["refund", "i"]
+    }
+  ]
